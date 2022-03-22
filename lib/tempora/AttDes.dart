@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
+
 
 
 Widget verAttDes(){
@@ -15,7 +15,7 @@ Widget verAttDes(){
         Icon(Icons.menu, color: Colors.black,),
         IconButton(
           onPressed: () {
-              //Navigator.push(context, route),    
+              
         }, 
         icon: Icon(
           Icons.shopping_cart,

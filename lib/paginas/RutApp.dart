@@ -15,7 +15,7 @@ class _RutAppState extends State<RutApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.lightGreen,
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: verRutApp(),
