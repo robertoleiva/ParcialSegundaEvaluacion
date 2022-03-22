@@ -36,6 +36,15 @@ class _verRutAppState extends State<verRutApp> {
           width: subir.width,
           child: Text.rich(TextSpan(text: "Cachadas Cuscatlecas", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold))),
         ),
+        TextField(
+          decoration: InputDecoration(
+            hintText: "Buscar",
+             fillColor: Colors.black12,
+              filled: true,
+              border: InputBorder.none,
+              prefixIcon: Icon(Icons.search)
+          ),
+        ),
       ],
     );
   }
