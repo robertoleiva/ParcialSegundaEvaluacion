@@ -130,7 +130,7 @@ class _CarritoState extends State<Carrito> {
                     width: MediaQuery.of(context).size.width,
                     child: ElevatedButton.icon(
                         style: ElevatedButton.styleFrom(
-                            primary: Colors.brown,
+                            primary: Colors.orange[900],
                             padding: EdgeInsets.only(top: 15, bottom: 15)),
                         onPressed: () {
                           print("Dio Click en el Boton");

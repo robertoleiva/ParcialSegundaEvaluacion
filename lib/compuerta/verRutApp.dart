@@ -163,7 +163,7 @@ class _verRutAppState extends State<verRutApp> {
                               textAlign: TextAlign.start,
                               style: TextStyle(
                                 fontSize: 14,
-                                color: Colors.black87,
+                                color: Colors.cyanAccent,
                                 fontWeight: FontWeight.bold,
                               ),
                             )
@@ -220,8 +220,8 @@ class _verRutAppState extends State<verRutApp> {
                                           Radius.circular(10))),
                                   child: Icon(Icons.favorite_rounded,
                                       color: artiSele2 == index
-                                          ? Colors.red
-                                          : Colors.white),
+                                          ? Colors.yellowAccent // aqui cabie de rojo amarillo creo q es corazon
+                                          : Colors.blueGrey),
                                 ),
                               ],
                             )),

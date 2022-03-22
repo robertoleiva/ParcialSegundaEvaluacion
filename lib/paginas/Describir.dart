@@ -102,7 +102,7 @@ class _DescribirState extends State<Describir> {
                               ),
                             ),
                             Text(
-                              " 25.00",
+                              " 75.00",
                               textAlign: TextAlign.start,
                               style: TextStyle(
                                 fontSize: 18,
@@ -115,13 +115,13 @@ class _DescribirState extends State<Describir> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
+                            Icon(Icons.star, color: Colors.lightBlueAccent),
                             Icon(Icons.star, color: Colors.yellow),
-                            Icon(Icons.star, color: Colors.yellow),
-                            Icon(Icons.star, color: Colors.yellow),
+                            Icon(Icons.star, color: Colors.lightBlueAccent),
                             Icon(Icons.star, color: Colors.yellow),
                             Icon(Icons.star, color: Colors.black38),
                             Text(
-                              " 200 Vistas",
+                              " 350 Vistas",
                               textAlign: TextAlign.start,
                               style: TextStyle(
                                 fontSize: 12,
@@ -176,7 +176,7 @@ class _DescribirState extends State<Describir> {
                                       });
                                     },
                                     icon: Icon(Icons.circle,
-                                        color: Colors.green)),
+                                        color: Colors.yellow))//es el ICONO DE LA SILLA 
                               ),
                               Container(
                                 child: IconButton(
@@ -187,7 +187,7 @@ class _DescribirState extends State<Describir> {
                                       });
                                     },
                                     icon: Icon(Icons.circle,
-                                        color: Colors.yellow)),
+                                        color: Colors.red)), //Es el ICONO DE LA SILLA
                               ),
                               Container(
                                 child: IconButton(
@@ -198,7 +198,7 @@ class _DescribirState extends State<Describir> {
                                       });
                                     },
                                     icon:
-                                        Icon(Icons.circle, color: Colors.red)),
+                                        Icon(Icons.circle, color: Colors.grey)),
                               )
                             ],
                           ),
