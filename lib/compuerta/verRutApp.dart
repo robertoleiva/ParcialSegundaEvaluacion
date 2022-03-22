@@ -41,7 +41,7 @@ class _verRutAppState extends State<verRutApp> {
         TextField(
           decoration: InputDecoration(
             hintText: "Buscar",
-             fillColor: Colors.blueGrey,
+             fillColor: Colors.amber,
               filled: true,
               border: InputBorder.none,
               prefixIcon: Icon(Icons.search)

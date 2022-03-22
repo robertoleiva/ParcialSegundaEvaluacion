@@ -207,7 +207,7 @@ class _DescribirState extends State<Describir> {
                          // width: subir.width,
                           child: ElevatedButton.icon(
                               style: ElevatedButton.styleFrom(
-                                  primary: Colors.brown,
+                                  primary: Colors.greenAccent,
                                   padding:
                                       EdgeInsets.only(top: 15, bottom: 15)),
                               onPressed: () {
@@ -215,14 +215,14 @@ class _DescribirState extends State<Describir> {
                               },
                               icon: Icon(
                                 Icons.shopping_cart_outlined,
-                                color: Colors.white,
+                                color: Colors.pink,
                               ),
                               label: Text(
                                 "Colores",
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                   fontSize: 18,
-                                  color: Colors.white,
+                                  color: Colors.white, 
                                 ),
                               )),
                         )
