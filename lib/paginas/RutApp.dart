@@ -5,7 +5,7 @@ import 'package:parcial2/tempora/AttSilla.dart';
 
 
 class RutApp extends StatefulWidget {
-  RutApp({Key? key}) : super(key: key);
+  
 
   @override
   State<RutApp> createState() => _RutAppState();
@@ -14,6 +14,13 @@ class RutApp extends StatefulWidget {
 class _RutAppState extends State<RutApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: Colors.red,
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: verRutApp(),
+      ),
+      body: verRutApp(),
+    );
   }
 }

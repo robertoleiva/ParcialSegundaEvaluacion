@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:parcial2/paginas/Describir.dart';
 import 'package:parcial2/resorte/Fijo.dart';
@@ -11,8 +13,30 @@ class verRutApp extends StatefulWidget {
 }
 
 class _verRutAppState extends State<verRutApp> {
+
+
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SingleChildScrollView(
+      padding: EdgeInsets.only(left: 20, right: 20),
+      child: SillApp(),
+    );
+  }
+
+
+
+  Widget SillApp(){
+    var subir = MediaQuery.of(context).size;
+    var bajar = MediaQuery.of(context).size;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          margin: EdgeInsets.only(top: 10),
+          width: subir.width,
+          child: Text.rich(TextSpan(text: "Cachadas Cuscatlecas", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold))),
+        ),
+      ],
+    );
   }
 }
