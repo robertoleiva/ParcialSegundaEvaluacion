@@ -22,6 +22,8 @@ class _DescribirState extends State<Describir> {
     var bajar = MediaQuery.of(context);
   
    
+  
+  
    return Scaffold(
         backgroundColor: Color(0xFFD6D6D6),
         appBar: AppBar(
@@ -55,7 +57,7 @@ class _DescribirState extends State<Describir> {
               Column(
                 children: [
                   Container(
-                    width: subir.width,
+                   // width: subir.width,
                     height: 200,
                     child: Ink.image(
                       image: AssetImage(dejarSilla),
@@ -78,7 +80,7 @@ class _DescribirState extends State<Describir> {
                     ),
                   ),
                   Container(
-                    width: subir.width,
+                   // width: subir.width,
                     padding: EdgeInsets.all(20),
                     decoration: BoxDecoration(
                         color: Colors.white,
@@ -146,7 +148,7 @@ class _DescribirState extends State<Describir> {
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
                               Container(
-                                width: subir.width,
+                               // width: subir.width,
                                 margin: EdgeInsets.only(top: 20),
                                 child: Text(
                                   "Colores: ",
@@ -202,7 +204,7 @@ class _DescribirState extends State<Describir> {
                           ),
                         ),
                         Container(
-                          width: subir.width,
+                         // width: subir.width,
                           child: ElevatedButton.icon(
                               style: ElevatedButton.styleFrom(
                                   primary: Colors.brown,
