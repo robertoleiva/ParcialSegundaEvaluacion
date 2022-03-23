@@ -17,6 +17,11 @@ class _verRutAppState extends State<verRutApp> {
     int artiSele1 = 0;
     int artiSele2 = 0;
 
+    int tipo_Produ = 0;
+    int prod_cunas = 0;
+    int prod_muebles = 0;
+
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -56,7 +61,17 @@ class _verRutAppState extends State<verRutApp> {
                 child: GestureDetector(
                   onTap: () {
                     setState(() {
-                      categoActi = index;
+                      categoActi = index;   // por aqui va el IF Es para activar las categorias
+                      
+                     if (index == 0){
+                       tipo_Produ = prod_cunas;
+                     } else if (index ==1){
+                       tipo_Produ = prod_muebles;
+                     }
+
+
+
+
                     });
                   },
                   child: Column(

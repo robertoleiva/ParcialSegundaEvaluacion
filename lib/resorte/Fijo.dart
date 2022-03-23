@@ -49,13 +49,7 @@ List articulos = [
         "Cuna doble colchon"
   },
 
-  {
-    "img": "assets/images/Grupo C3.png",
-    "titulo": "Cuna para bebe ",
-    "precio": "115.00",
-    "descripcion":
-        "Cuna doble colchon"
-  },
+  
 
   {
     "img": "assets/images/Grupo S1.png",
@@ -72,6 +66,7 @@ List articulos = [
     "descripcion":
         "Sillon de sala 2 personas"
   },
+
   {
     "img": "assets/images/Grupo S3.png",
     "titulo": "Sillon Individual",
@@ -80,9 +75,24 @@ List articulos = [
         "Sillon creativo"
   },
 
+  
 
 
+];
+
+List prod_cunas = [
+
+  {
+    "img": "assets/images/Grupo C3.png",
+    "titulo": "Cuna para bebe ",
+    "precio": "115.00",
+    "descripcion":
+        "Cuna doble colchon"
+  },
 
 
+];
 
+List prod_muebles = [
+  
 ];
