@@ -220,7 +220,7 @@ class _verRutAppState extends State<verRutApp> {
                                           Radius.circular(10))),
                                   child: Icon(Icons.favorite_rounded,
                                       color: artiSele2 == index
-                                          ? Colors.yellowAccent // aqui cabie de rojo amarillo creo q es corazon
+                                          ? Colors.yellowAccent 
                                           : Colors.blueGrey),
                                 ),
                               ],
